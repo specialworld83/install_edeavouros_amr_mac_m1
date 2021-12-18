@@ -30,6 +30,7 @@ ParallelDownloads = 5
 
 ## Init pacman keyring
 pacman-key --init
+
 pacman-key --populate archlinuxarm
 
 ## Commands for install
