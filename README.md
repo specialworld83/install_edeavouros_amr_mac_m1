@@ -6,8 +6,9 @@ https://wiki.archlinux.org/title/Install_Arch_Linux_from_existing_Linux#Using_a_
 https://archlinuxarm.org/platforms/armv8/generic
 https://arm.endeavouros.com/endeavouros-arm-install/
 
-## Format partition
+## Format partition boot
 mkfs.fat /dev/sdb1
+## Format partition root
 mkfs.ext4 /dev/sdb2
 
 ## Mount partition
